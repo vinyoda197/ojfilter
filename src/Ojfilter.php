@@ -62,7 +62,7 @@ class OJFilter
         }
         
         foreach($rulesObjs as $r) {
-            $hits = $r->run($string); var_dump($hits);
+            $hits = $r->run($string);
             $this->_hits = $this->_hits + $hits;
         }
 
