@@ -16,4 +16,9 @@ trait Markup
                             $text, 
                             $this->_tag);
     }
+
+    public function tag()
+    {
+        return $this->_tag;
+    }
 }

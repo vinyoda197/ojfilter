@@ -21,12 +21,7 @@ class Rules
 
     public function run(&$txt)
     {
-        return $txt;
-    }
-
-    public function tag()
-    {
-        return $this->_tag;
+        return $this->_hits;
     }
 
     public function priority()

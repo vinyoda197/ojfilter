@@ -18,7 +18,8 @@
     },
 	"autoload": {
         "psr-4": {
-            "vinyoda197\\Ojfilter\\": "src/"
+            "vinyoda197\\Ojfilter\\": "src/",
+            "vinyoda197\\Ojfilter\\Rules\\": "src/Rules/"
         }
     }
 }
